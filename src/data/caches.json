@@ -1,0 +1,43 @@
+{
+  "mapScaleMilesPerUnit": 0.025,
+  "userPosition": { "x": 42, "y": 62 },
+  "riskZone": { "x": 74, "y": 30, "r": 17 },
+  "caches": [
+    {
+      "id": "cache-community",
+      "name": "[Community center name]",
+      "type": "Community center",
+      "x": 30,
+      "y": 48,
+      "supplies": ["Water", "Blankets", "Phone chargers", "Food"],
+      "needed": ["First-aid kit", "Baby supplies"]
+    },
+    {
+      "id": "cache-school",
+      "name": "[Elementary school name]",
+      "type": "School",
+      "x": 62,
+      "y": 78,
+      "supplies": ["Water", "Food", "Tools"],
+      "needed": ["Medicine", "Blankets"]
+    },
+    {
+      "id": "cache-library",
+      "name": "[Public library name]",
+      "type": "Library",
+      "x": 76,
+      "y": 28,
+      "supplies": ["Water", "First-aid kit"],
+      "needed": ["Food", "Phone chargers"]
+    },
+    {
+      "id": "cache-firestation",
+      "name": "[Fire station name]",
+      "type": "Fire station",
+      "x": 14,
+      "y": 20,
+      "supplies": ["First-aid kit", "Medicine", "Water", "Blankets"],
+      "needed": ["Food", "Tools"]
+    }
+  ]
+}
