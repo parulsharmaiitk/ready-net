@@ -1,0 +1,54 @@
+{
+  "name": "readynet",
+  "version": "0.1.0",
+  "description": "ReadyNet — offline-first disaster check-in PWA (prototype, no backend)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "icons": "node scripts/make-icons.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parulsharmaiitk/ready-net.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/parulsharmaiitk/ready-net/issues"
+  },
+  "homepage": "https://github.com/parulsharmaiitk/ready-net#readme",
+  "dependencies": {
+    "idb-keyval": "^6.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6",
+    "workbox-window": "^7.4.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@fontsource/atkinson-hyperlegible": "^5.3.0",
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^22.20.5",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "fake-indexeddb": "^6.2.5",
+    "globals": "^17.13.0",
+    "jsdom": "^29.1.1",
+    "prettier": "^3.9.10",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.71.1",
+    "vite": "^5.4.21",
+    "vite-plugin-pwa": "^0.20.5",
+    "vitest": "^2.1.9"
+  },
+  "private": true,
+  "type": "module"
+}
